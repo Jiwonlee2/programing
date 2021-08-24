@@ -15,4 +15,4 @@ print('to {name}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
 }
 ```
 
-:d / designate numerically
+:d / designate numerically [^1]
