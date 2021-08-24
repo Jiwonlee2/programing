@@ -21,4 +21,4 @@ print(a[2:5])
 ```
 print((a+'\n')*2)
 ```
-#\n -> line break
+\n -> line break
