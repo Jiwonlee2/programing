@@ -1,4 +1,4 @@
-##string2
+string2
 
 ```
 a = 'Hello Python'
