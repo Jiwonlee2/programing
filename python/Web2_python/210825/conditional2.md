@@ -1,6 +1,6 @@
 #!python
+
 ```
-{
 print("Content-Type: text/html")
 print()
 import cgi #using cgi module
@@ -31,5 +31,4 @@ print('''
 </body>
 </html>
 '''.format(title=pageId,desc=description))
-}
 ```
