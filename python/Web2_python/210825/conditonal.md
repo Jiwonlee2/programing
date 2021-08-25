@@ -19,3 +19,12 @@ if user_id == 'egoing':
 else:
     print("Who are you?")
 ```
+
+```
+if user_id == 'egoing' and user_pwd == '111111':
+    print("Hello Master")
+elif user_id == 'jiwon' and user_pwd == '222':
+    print("Hello Jiwon")
+else:
+    print("Who are you?")
+```
