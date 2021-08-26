@@ -1,5 +1,4 @@
 ```
-#for statement is used to iterate over each elements of a sequence
 for value in ['a','b','c']:
     print(value)
 print(2)
