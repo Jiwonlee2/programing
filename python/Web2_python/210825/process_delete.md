@@ -1,3 +1,4 @@
+```
 #!python
 
 import cgi, os
@@ -9,3 +10,4 @@ os.remove('data/'+pageId)
 #Redirection
 print("Location: index.py")
 print()
+```
