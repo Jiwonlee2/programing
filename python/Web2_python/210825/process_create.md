@@ -1,3 +1,4 @@
+```
 #!python
 
 import cgi
@@ -11,3 +12,4 @@ opened_file.write(description)
 #Redirection
 print("Location: index.py?id="+title)
 print()
+```
