@@ -1,3 +1,4 @@
+```
 #!python
 print("Content-Type: text/html")
 print()
@@ -37,3 +38,4 @@ print('''
 </body>
 </html>
 '''.format(title=pageId,desc=description,listStr=listStr, form_default_title=pageId, form_default_description=description))
+```
