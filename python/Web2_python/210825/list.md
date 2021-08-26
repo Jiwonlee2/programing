@@ -4,10 +4,13 @@ print(square)
 print(square[0])
 print(square[1])
 print(len(square))
+
 square[1] = 4
 print(square)
+
 del square[2]
 print(square)
+
 square.append('jiwon')
 print(square)
 ```
