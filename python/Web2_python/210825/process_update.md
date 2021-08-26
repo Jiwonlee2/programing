@@ -1,3 +1,4 @@
+```
 #!python
 
 import cgi, os
@@ -15,3 +16,4 @@ os.rename('data/'+pageId,'data/'+title)
 #Redirection
 print("Location: index.py?id="+title)
 print()
+```
