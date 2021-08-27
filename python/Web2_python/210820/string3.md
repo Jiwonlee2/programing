@@ -31,7 +31,7 @@ sint occaecat cupidatat non proident, sunt in culpa qui '+name+' officia deserun
 ---
 
 [named placeholder]
-###### 위 부분보다 더욱 간편하게 출력할 수 있는 방법은 각각의 자리에 named placeholder를 작성한 후 .format 기능을 사용하여 값을 출력할 수 있다.
+###### 위 부분보다 더욱 간편하게 출력할 수 있는 방법은 각각의 자리에 named placeholder를 작성한 후 .format()을 사용하여 값을 출력할 수 있다.
 
 ```
 print('to '+name+'. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
