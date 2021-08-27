@@ -1,7 +1,9 @@
 ## string3
 
+```
 name = 'apple'
 age = 'one'
+```
 
 ---
 
