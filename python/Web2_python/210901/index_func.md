@@ -1,7 +1,8 @@
+```
 #!python
 print("Content-Type: text/html")
 print()
-import cgi, os #using cgi and os module
+import cgi, os 
 
 def getList():
     files = os.listdir('data') #return a list containing the names of the entries in the directory given by path.
@@ -51,3 +52,4 @@ print('''
     listStr=getList(),
     update_link=update_link,
     delete_action=delete_action))
+```
