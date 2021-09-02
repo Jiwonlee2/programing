@@ -1,5 +1,5 @@
-#!
 ```
+#!python
 {
 print("Content-Type: text/html")
 print()
@@ -28,4 +28,5 @@ print('''
 '''.format(title=pageId))
 }
 ```
+
 #cgi means common gateway interface
