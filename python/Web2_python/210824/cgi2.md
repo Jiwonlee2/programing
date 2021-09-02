@@ -3,7 +3,7 @@
 {
 print("Content-Type: text/html")
 print()
-import cgi #using cgi module
+import cgi 
 form = cgi.FieldStorage()
 pageId = form["id"].value
 print('''
@@ -29,4 +29,9 @@ print('''
 }
 ```
 
-#cgi means common gateway interface
+---
+
+
+###### CGI는 common gateway interface의 약자로, 홈페이지와 PYTHON SCRIPT를 서로 연동해주는 기능을 한다.
+###### import cgi는 cgi module을 사용하기 위해 불러온 것.
+###### index.py?id=xxx의 주소를 각각 만들었기에 홈페이지에서 xxx의 버튼을 누르면 xxx의 이름이 출력된 웹주소가 만들어진다.
