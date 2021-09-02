@@ -1,6 +1,5 @@
-#!python
 ```
-{
+#!python
 print("Content-Type: text/html")  #header
 print()  #break line
 print('''
@@ -23,5 +22,4 @@ print('''
 </body>
 </html>
 ''')
-}
 ```
