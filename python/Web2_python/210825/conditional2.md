@@ -3,7 +3,7 @@
 #!python
 print("Content-Type: text/html")
 print()
-import cgi #using cgi module
+import cgi
 form = cgi.FieldStorage()
 if 'id' in form:
     pageId = form["id"].value
@@ -32,3 +32,12 @@ print('''
 </html>
 '''.format(title=pageId,desc=description))
 ```
+
+---
+
+###### if 'id' in form: / pageId = form["id"].value / description = open('data/'+pageId, 'r').read() 
+###### else: pageId = 'Welcome' / description ='Hello,
+###### web'만약 form에 id가 존재할 경우에는, pageId는 id 그대로, description은 data 파일에 있는 것을 읽도록 하는 것이다. 
+###### 그렇지 않을 경우에는 pageId는 Welcome으로, 설명은 Hello, web으로 나타난다.
+
+###### (format기능을 통해 식을 간소화함)
