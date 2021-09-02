@@ -25,6 +25,7 @@ print(c)
 ```
 d = ['jiwon', 'gwangju', 'student']
 print(d[0])
+
 person = {'name':'jiwon', 'address':'gwangju'}
 print(person['name'])
 ```
