@@ -1,7 +1,7 @@
 # LIST 
-* 대괄호'[]'으로 데이터들을 감싸며 표현하며, []안의 데이터를 요소(element)라고 한다.
+* 대괄호[]로 데이터들을 감싸며 표현하며, []안의 데이터를 요소(element)라고 한다.
 * List는 여러 element로 구성되어 있으며, 문자열처럼 각 element들에 순서가 있다.   
-따라서 index을 통해 각 element들을 불러들어 올 수 있다.
+따라서 indexing을 통해 각 element들을 불러들어 올 수 있다.
 * element들의 생성, 삭제, 수정이 가능하다.
 * element가 없는 비어있는 list도 표현가능하다.   
 element의 type이 Integer 인 경우 그대로 표현하고, string 일 경우 따옴표로 감싸서 표현한다.
@@ -101,7 +101,7 @@ len(t) = 4
 
 # DICTIONARY
 * 데이터가 다양해지고 속성과 값들의 표현들이 많아져 단순 List나 tuple로 데이터를 표현하기가 힘들다.     
-데이터들의 대응관계(속성과 값)를 잘 나타낼 수 있는 자료형이 딕셔너리(Dictionary)이다.
+데이터들의 대응관계(속성과 값)를 잘 나타낼 수 있는 자료형이 Dictionary이다.
 * 사전이라는 의미로 예를들어 "people"이라는 단어에 "사람"그리고 "baseball"이라는 단어에는 "야구"라는 뜻을 부합시키듯,     
 Dictionary에서도 Key와 Value로 한 쌍을 이루어 element를 갖는다.
 * element들은 순서를 갖지 않고, dictionary에서 원하는 element를 찾고자하면 element의 key를 통해 value를 얻을 수 있다. 
