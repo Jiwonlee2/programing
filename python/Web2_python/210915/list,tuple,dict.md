@@ -3,7 +3,7 @@
 * List는 여러 element로 구성되어 있으며, 문자열처럼 각 element들에 순서가 있다.   
 따라서 index을 통해 각 element들을 불러들어 올 수 있다.
 * element들의 생성, 삭제, 수정이 가능하다.
-* element가 없는 비어있는 list(즉, empty_list)도 표현가능하다.   
+* element가 없는 비어있는 list도 표현가능하다.   
 element의 type이 Integer 인 경우 그대로 표현하고, string 일 경우 따옴표로 감싸서 표현한다.
 * indexing을 통해 출력한 element들의 value를 연산하여 출력도 가능하다.
 * list의 맨 마지막 index는 '-1'이다.
@@ -111,7 +111,6 @@ Dictionary에서도 Key와 Value로 한 쌍을 이루어 element를 갖는다.
 {Key1:Value1, Key2:Value2, Key3:Value3, ...}
 dic = {'name':'jiwon', 'phone':'0123456789', 'birth': '0924'}
 ```
-_value에 list를 넣을 수 도 있다._
 
 ### Dictionary element 추가, 삭제
 ```
@@ -126,6 +125,7 @@ a = {1: 'a', 2: 'b', 'name': 'jiwon', 3: [1, 2, 3]}
 del a[1]
 a = {2: 'b', 'name': 'jiwon', 3: [1, 2, 3]}
 ```
+_value에 list를 넣을 수 있다._
 
 ### Dictionary Key-Value 확인
 ```
