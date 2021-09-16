@@ -18,14 +18,26 @@ Class는 함수나 변수들을 모아 놓을 수 있는 공간.
 ---
 
 ```
+<math1>
+
+def average(a,b,c):
+    s=a+b+c
+    r=s/3
+    return r
+
+def plus(a,b):
+    return a+b
+
+pi = 3.14
+```
+
+```
 import math1
 
 print(math1.average(1,2,3))
 print(math1.plus(1,2))
 print(math1.pi)
-```
 
-```
 from math1 import average, plus, pi
 print(average(1,2,3))
 print(plus(1,2))
