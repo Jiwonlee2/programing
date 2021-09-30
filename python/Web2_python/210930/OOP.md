@@ -22,10 +22,9 @@
 ### CLASS와 INSTANCE
 * class : 어떤 문제를 해결하기 위한 데이터를 만들기기 위해 추상화를 거쳐 집단에 속하는 속성(attribute)과 행위(behavior)를 변수와 메서드로 정의한 것     
 * instance : 클래스에서 정의한 것을 토대로 실제 메모리상에 할당된 것으로 실제 프로그램에서 사용되는 데이터
-
-**Example**     
-OBJECT는 CLASS와 INSTANCE를 포함함.    
-CLASS : 포유류 / INSTANCE : 사람, 곰, 고양이 등    
+   
+object는 class와 instance를 포함함.    
+CLASS : 포유류 / INSTANCE : 사람, 곰, 고양이 등으로 생각할 수 있음.    
 CLASS는 모듈처럼 일종의 grouping과 같은 역할을 함. 함수 뿐만 아니라 연관된 변수를 포함하기도 함.     
 INSTANCE는 class를 복제하여 만들어진 것. 각각의 instance는 class와 같은 변수와 함수를 포함함.      
 (함수의 내용은 같지만 변수에 담겨진 값이 다를 수 있음.)
